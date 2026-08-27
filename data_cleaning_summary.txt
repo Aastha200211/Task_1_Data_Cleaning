@@ -1,0 +1,24 @@
+DATA CLEANING AND PREPROCESSING SUMMARY
+
+Dataset:
+Mall Customer Segmentation Data
+
+Tool Used:
+Python with Pandas
+
+Cleaning Steps Performed:
+
+1. Loaded the raw CSV dataset using Pandas.
+2. Inspected the dataset using head(), info(), describe(), and shape.
+3. Checked for missing values using isnull().sum().
+4. Checked and removed duplicate records where applicable.
+5. Standardized text values in the Gender column.
+6. Renamed column headers using lowercase and underscore formatting.
+7. Checked and corrected numerical data types.
+8. Checked for invalid values in Age, Annual Income, and Spending Score.
+9. Performed outlier detection using boxplots.
+10. Verified the final dataset for missing values, duplicates, and correct data types.
+11. Exported the cleaned dataset as cleaned_mall_customers.csv.
+
+Result:
+The final dataset is clean, structured, and ready for further analysis or visualization.
